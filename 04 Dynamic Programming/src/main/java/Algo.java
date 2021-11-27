@@ -11,7 +11,7 @@ public class Algo {
         if(sxn % 2 == 0) {
             int sHalf = sxn/2; // Half of sxn
             int n = a.length - 1; // n number of a[i]
-            int iSet[][] = new int[sHalf+1][n+1]; // Index i ist die Summe aller a[i] für Iteration S!
+            int iSet[][] = new int[sHalf+1][n+1]; //Index i, j so that i is the best solution for the i. iteration with j available integers
 
             for (int i = 0; i <= n; i++) {
                 for (int sHalfInIteration = 0; sHalfInIteration <= sHalf; sHalfInIteration++) {
