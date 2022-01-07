@@ -2,7 +2,7 @@ public class Algo {
     static public void main(String[] args) {
         Test();
     }
-    static public void Test(){
+    static public void FindIndexSet(){
         int sxn = 0;
         int a[] = {6, 4, 4, 6}; //Random set of integers
         for (int x:a) {
